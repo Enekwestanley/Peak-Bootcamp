@@ -173,3 +173,24 @@ h2 {
   height: 30%;
   margin: 0 0.5rem 1rem 0;
 }
+
+.speaker-desc-holder {
+  margin-right: 1rem;
+  max-width: 50%;
+}
+
+.speaker-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #535353;
+}
+
+.speaker-job {
+  font-size: 0.8rem;
+  color: #e85242;
+  font-style: italic;
+}
+
+.speaker-desc {
+  font-size: 0.8rem;
+}
