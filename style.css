@@ -1,7 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,9 +9,9 @@ body {
   max-width: 100%;
 }
 
-.header { 
-display: flex;
-width: 100%;
+.header {
+  display: flex;
+  width: 100%;
 }
 
 .first-nav {
@@ -32,10 +32,6 @@ li a {
 
 .hidden {
   margin-left: -100%;
-}
-
-.hamburg {
-  position: fixed;
 }
 
 .nav2-list {
@@ -87,12 +83,13 @@ li a {
   align-self: flex-start;
   width: 2rem;
   padding: 0.2rem 0 0 1rem;
+  position: fixed;
 }
 
 .write-up {
   background-image: url(img/main.png);
   background-size: cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .showcase {
@@ -129,7 +126,7 @@ li a {
   max-width: 20%;
   align-self: center;
   padding: 1rem 0 1rem 1rem;
-  }
+}
 
 .program {
   display: flex;
@@ -154,7 +151,7 @@ li a {
   color: #e85242;
 }
 
-.join-us { 
+.join-us {
   padding: 2rem 4rem;
   background-color: #ec5242;
   margin: 1rem 0;
@@ -175,10 +172,6 @@ li a {
   justify-content: center;
   align-items: center;
   align-content: center;
-  
-}
-
-.speakers {
   background-color: white;
   max-width: 100%;
   margin: 0;
@@ -201,7 +194,7 @@ li a {
   border: 1px solid red;
 }
 
- .speaker1-hr {
+.speaker1-hr {
   font-weight: bold;
   width: 3rem;
   margin-top: 1rem;
@@ -242,11 +235,6 @@ li a {
   font-size: 0.8rem;
 }
 
-.speaker-desc-holder {
-  margin: 0 2rem 0 0;
-  max-width: 50%;
-}
-
 .program-text {
   padding: 1.5rem 0;
 }
@@ -267,7 +255,6 @@ li a {
   display: flex;
   flex-direction: column;
 }
-
 
 .footer-logo img {
   width: 10rem;
@@ -326,7 +313,7 @@ li a {
   max-width: 2rem;
   align-self: center;
   margin-right: 0.6rem;
-} 
+}
 
 .about-header {
   width: 100%;
@@ -434,7 +421,6 @@ li a {
   width: 100vw;
   position: relative;
   top: 0;
-
 }
 
 .about-img2,
@@ -461,7 +447,7 @@ li a {
   background: red;
   opacity: 0.5;
   position: absolute;
-} 
+}
 
 @media screen and (min-width: 762px) {
   .hamburg {
@@ -513,7 +499,7 @@ li a {
   .nav2-list {
     margin-top: 0;
   }
-  
+
   .nav2-items {
     display: flex;
     flex-direction: row;
@@ -530,165 +516,153 @@ li a {
     display: none;
   }
 
+  .speaker-group img {
+    max-width: 100%;
+  }
+
   .logo a img {
     width: 5rem;
   }
-  
+
   .img-logo {
     max-width: 20%;
     align-self: center;
     padding: 1rem 0 1rem 1rem;
-    }
+  }
 
-    header {
-      position: sticky;
-      top: 0;
-    }
+  header {
+    position: sticky;
+    top: 0;
+  }
 
-    .showcase {
-      padding: 9rem 0 0 0 ;
-      margin-left: 7rem;
-      width: 40%;
-    }
-  
-    .showcase h2 {
-      position: relative;
-      font-weight: 800;
-      padding: 2rem 0 0 0;
-      letter-spacing: 0.2rem;
-    }
+  .showcase {
+    padding: 9rem 0 0 0;
+    margin-left: 7rem;
+    width: 40%;
+  }
 
-    .showcase h1 {
-      font-size: 40px;
-      font-weight: 800;
-    }
-  
-    .speaker-hr {
-      background-color: #3c3f45;
-    }
-  
-    .pro h5 {
-      color: #ec4b3a;
-      font-size: 1rem;
-      font-weight: bold;
-      padding-top: 0.5rem;
-    }
-  
-    .pro p {
-      font-size: 0.8rem;
-      margin: 0 1rem 0.5rem 1rem;
-      text-align: center;
-      width: 90%;
-    }
-  
-    .courses {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      margin: 0 3rem;
-      max-width: 70%;
-      padding-bottom: 2.5rem;
-    }  
-    
-    .pro {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: #3d4046;
-      margin: 0 0.1rem;
-    }
+  .showcase h2 {
+    position: relative;
+    font-weight: 800;
+    padding: 2rem 0 0 0;
+    letter-spacing: 0.2rem;
+  }
 
-    .about-header h1 {
-      margin-top:  -4rem;
-    }
-  
-    .img-logo {
-      max-width: 20%;
-      align-self: center;
-      padding-top: 1rem;
-    }
-  
-    .program {
-      margin-top: 3.5rem;
-    }
-  
-    .program-text {
-      padding-bottom: 2rem;
-    }
-    
-    .speakers-group {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      max-width: 100%;
-      margin-top: -7rem;
-    }
-  
-    .speaker-group3,
-    .speaker-group4,
-    .speaker-group5,
-    .speaker-group6 {
-      margin-top: -5rem;
-    }
-  
-    .speakers {
+  .showcase h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .speaker-hr {
+    background-color: #3c3f45;
+  }
+
+  .pro h5 {
+    color: #ec4b3a;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+  }
+
+  .pro p {
+    font-size: 0.8rem;
+    margin: 0 1rem 0.5rem 1rem;
+    text-align: center;
+    width: 90%;
+  }
+
+  .courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 3rem;
+    max-width: 70%;
+    padding-bottom: 2.5rem;
+  }
+
+  .pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d4046;
+    margin: 0 0.1rem;
+  }
+
+  .about-header h1 {
+    margin-top: -4rem;
+  }
+
+  .program {
+    margin-top: 3.5rem;
+  }
+
+  .program-text {
+    padding-bottom: 2rem;
+  }
+
+  .speakers-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin-top: -7rem;
+  }
+
+  .speaker-group3,
+  .speaker-group4,
+  .speaker-group5,
+  .speaker-group6 {
+    margin-top: -5rem;
+  }
+
+  .speakers {
     margin: 0 5rem;
     padding-top: 1rem;
-    }
-  
-    .speaker-group img {
-      max-width: 100%;
-    }
-    
-  
-    .footer-logos {
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin-top: 2rem;
-    }
-  
-    .partner {
-      margin-top: -1.8rem;
-    }
-  
-    .about-header {
-      padding-top: 14rem;
-    }
-  
-    .about-img-courses {
-      flex-direction: row;
-    }
-  
-    .about-img-courses li p {
-      z-index: 1;
-      font-weight: bold;
-    }
-  
-    .about-img1, 
-    .about-img1 {
-      margin-right: 1.5rem;
-  
-    }
+  }
 
-    .about-nav1 {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      background-color: black;
-      color: white;
-    }
+  .footer-logos {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
 
-    .about-nav1-items {
-      display: flex;
-      flex-direction: row;
-      margin-right: 7rem;
-    }
+  .partner {
+    margin-top: -1.8rem;
+  }
 
-    .about-nav1-items li {
-      padding: 1rem;
-    }
-    
-  
+  .about-header {
+    padding-top: 14rem;
+  }
+
+  .about-img-courses {
+    flex-direction: row;
+  }
+
+  .about-img-courses li p {
+    z-index: 1;
+    font-weight: bold;
+  }
 
 
+  .about-img1 {
+    margin-right: 1.5rem;
+  }
+
+  .about-nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+  }
+
+  .about-nav1-items {
+    display: flex;
+    flex-direction: row;
+    margin-right: 7rem;
+  }
+
+  .about-nav1-items li {
+    padding: 1rem;
+  }
 }

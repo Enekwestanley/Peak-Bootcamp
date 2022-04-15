@@ -1,8 +1,3 @@
-
-
-  
-
-
 const speakerName = document.querySelectorAll('.speaker-name');
 const speakerJob = document.querySelectorAll('.speaker-job');
 const speakerDesc = document.querySelectorAll('.speaker-desc');
@@ -41,7 +36,7 @@ const speakersArray = [
 ];
 
 window.addEventListener('load', () => {
-  for (let i = 0; i < speakersArray.length; i++) {
+  for (let i = 0; i < speakersArray.length; i += 1) {
     speakerName[i].textContent = speakersArray[i].name;
     speakerJob[i].textContent = speakersArray[i].job;
     speakerDesc[i].textContent = speakersArray[i].description;
