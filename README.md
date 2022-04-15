@@ -13,7 +13,8 @@ This project displays a full website of a bootcamp school. This was built with H
 
 ## Live Demo
 
-[Live Demo Link](https://Enekwestanley.github.io/Zenith-Bootcamp/)
+[Live Demo Link](https://enekwestanley.github.io/Peak-Bootcamp/)
+[Loom Video Link](https://www.loom.com/share/cb167c65975143c48f9faff746b787a4)
 
 
 ### Prerequisites
