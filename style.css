@@ -273,7 +273,7 @@ li a {
   justify-content: space-evenly;
   align-items: center;
   background-color: #2e2e2e;
-  padding: 3.5rem 0;
+  padding: 2.5rem 0;
   max-width: 100%;
   color: #fff;
   height: auto;
@@ -533,6 +533,7 @@ li a {
   header {
     position: sticky;
     top: 0;
+    z-index: 5;
   }
 
   .showcase {
@@ -632,6 +633,7 @@ li a {
 
   .about-header {
     padding-top: 14rem;
+    z-index: 1;
   }
 
   .about-img-courses {
